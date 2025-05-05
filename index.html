@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Purchase Robux, Limited items, and Premium Roblox accounts safely and securely">
+  <meta name="keywords" content="Robux, Roblox, Limited items, Premium accounts, Buy Robux">
+  <title>Robux Palace | Premium Roblox Services</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="language-selector">
+        <div class="selected-language">
+          <img src="images/flags/en.png" alt="English" class="language-flag">
+          <span>English</span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <ul class="language-dropdown">
+          <li data-lang="en">
+            <img src="images/flags/en.png" alt="English" class="language-flag">
+            <span>English</span>
+          </li>
+          <li data-lang="es">
+            <img src="images/flags/es.png" alt="Español" class="language-flag">
+            <span>Español</span>
+          </li>
+          <li data-lang="fr">
+            <img src="images/flags/fr.png" alt="Français" class="language-flag">
+            <span>Français</span>
+          </li>
+          <li data-lang="de">
+            <img src="images/flags/de.png" alt="Deutsch" class="language-flag">
+            <span>Deutsch</span>
+          </li>
+        </ul>
+      </div>
+      <img src="images/logo.png" alt="Robux Palace Logo" class="logo">
+      <h1 data-i18n="title">Robux Palace</h1>
+      <p data-i18n="subtitle">The Ultimate Shop for Robux, Limiteds & Premium Accounts</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <section class="vouches-section">
+      <h2 class="section-title" data-i18n="vouches.title">Customer Vouches</h2>
+      <div id="vouches" class="vouches-container"></div>
+      <div class="vouch-controls">
+        <button id="prev-vouch"><i class="fas fa-chevron-left"></i></button>
+        <div class="vouch-dots"></div>
+        <button id="next-vouch"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </section>
+
+    <section class="features-section">
+      <div class="cards">
+        <div class="card">
+          <div class="card-icon">
+            <img src="images/limiteds-icon.png" alt="Roblox Limiteds">
+          </div>
+          <h2 data-i18n="cards.limiteds.title">Roblox Limiteds</h2>
+          <div class="card-support" data-i18n="cards.limiteds.support">
+            Submit a request with your desired Limited item. After payment confirmation, we'll acquire it for you.
+          </div>
+          <ul class="features">
+            <li data-i18n="cards.limiteds.feature1">100% Clean Limited Items</li>
+            <li data-i18n="cards.limiteds.feature2">Secure Trading System</li>
+            <li data-i18n="cards.limiteds.feature3">Includes $5 Premium Gift Card</li>
+            <li data-i18n="cards.limiteds.feature4">Guaranteed Safe Transaction</li>
+          </ul>
+          <button class="btn-primary" onclick="window.location.href='https://discord.gg/robux-palace'" data-i18n="cards.limiteds.button">Order Now</button>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <img src="images/accounts-icon.png" alt="Premium Roblox Accounts">
+          </div>
+          <h2 data-i18n="cards.accounts.title">Premium Roblox Accounts</h2>
+          <ul class="features">
+            <li data-i18n="cards.accounts.feature1"><b>30-Day Warranty</b></li>
+            <li data-i18n="cards.accounts.feature2">Full Email Access Included</li>
+            <li data-i18n="cards.accounts.feature3">Bonus 1,000 Robux for Name Change</li>
+            <li data-i18n="cards.accounts.feature4">Verified & Secure Accounts</li>
+          </ul>
+          <div class="card-support" data-i18n="cards.accounts.support">
+            Limited Availability – <span class="highlight-danger">Act Now!</span>
+          </div>
+          <button class="btn-primary" onclick="window.location.href='https://discord.gg/robux-palace'" data-i18n="cards.accounts.button">Browse Accounts</button>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">
+            <img src="images/robux-icon.png" alt="Buy Robux">
+          </div>
+          <h2 data-i18n="cards.robux.title">Buy Robux</h2>
+          <ul class="features">
+            <li data-i18n="cards.robux.feature1">Minimum Order: 10,000 Robux</li>
+            <li data-i18n="cards.robux.feature2">Instant Delivery</li>
+            <li data-i18n="cards.robux.feature3">Multiple Payment Options</li>
+          </ul>
+          <div class="card-support" data-i18n="cards.robux.support">
+            Support available in #support channel
+          </div>
+          <button class="btn-primary" onclick="window.location.href='https://discord.gg/robux-palace'" data-i18n="cards.robux.button">Get Robux</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing-section">
+      <h2 class="section-title" data-i18n="pricing.title">Robux Pricing</h2>
+      <div class="pricing-table-container">
+        <table class="pricing-table">
+          <thead>
+            <tr>
+              <th data-i18n="pricing.amount">Robux Amount</th>
+              <th data-i18n="pricing.price">Price (€)</th>
+              <th data-i18n="pricing.action">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Pricing rows will be generated by JavaScript -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="payment-section">
+      <h2 class="section-title" data-i18n="payments.title">Accepted Payment Methods</h2>
+      <div class="payment-methods">
+        <div class="payment-method">
+          <i class="fab fa-cc-paypal"></i>
+          <span data-i18n="payments.paypal">PayPal</span>
+        </div>
+        <div class="payment-method">
+          <i class="fas fa-credit-card"></i>
+          <span data-i18n="payments.creditcard">Credit/Debit Card</span>
+        </div>
+        <div class="payment-method">
+          <i class="fab fa-bitcoin"></i>
+          <span data-i18n="payments.crypto">Cryptocurrency</span>
+        </div>
+        <div class="payment-method">
+          <i class="fas fa-gift"></i>
+          <span data-i18n="payments.giftcards">Gift Cards</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <h2 class="section-title" data-i18n="faq.title">Frequently Asked Questions</h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question" data-i18n="faq.q1">Is this service safe?</div>
+          <div class="faq-answer" data-i18n="faq.a1">Yes, all transactions comply with Roblox's Terms of Service to ensure account safety.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" data-i18n="faq.q2">How fast is delivery?</div>
+          <div class="faq-answer" data-i18n="faq.a2">Most orders complete within 1-2 hours, with a maximum 24-hour processing time.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" data-i18n="faq.q3">What's your refund policy?</div>
+          <div class="faq-answer" data-i18n="faq.a3">Full refunds provided if we fail to deliver within 48 hours.</div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="images/logo.png" alt="Robux Palace Logo">
+        <span>Robux Palace</span>
+      </div>
+      <div class="footer-links">
+        <a href="terms.html" data-i18n="footer.terms">Terms of Service</a>
+        <a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
+        <a href="contact.html" data-i18n="footer.contact">Contact Us</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://discord.gg/robux-palace"><i class="fab fa-discord"></i></a>
+      </div>
+    </div>
+    <div class="footer-copyright" data-i18n="footer.copyright">
+      &copy; 2025 Robux Palace. All rights reserved. Not affiliated with Roblox Corporation.
+    </div>
+  </footer>
+
+  <script src="js/language.js"></script>
+  <script src="js/vouches.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
